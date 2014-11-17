@@ -6,5 +6,30 @@
   },
   "dependencies": {
     "gl-matrix-mat3": "^2.2.1-npm"
-  }
+  },
+  "name": "ctx.getTransform",
+  "version": "1.0.0",
+  "description": "monkey patch CanvasRenderingContext2D to include a getTransform method",
+  "main": "ctx.getTransform.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tmpvar/ctx.getTransform.git"
+  },
+  "keywords": [
+    "2d",
+    "canvas",
+    "html5",
+    "gl-matrix",
+    "monkey",
+    "patch"
+  ],
+  "author": "Elijah Insua <tmpvar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmpvar/ctx.getTransform/issues"
+  },
+  "homepage": "https://github.com/tmpvar/ctx.getTransform"
 }
