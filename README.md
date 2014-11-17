@@ -30,6 +30,8 @@ The awesome method (and purpose of this library):
 
 `ctx.getTransform` - return a [gl-matrix mat3](http://glmatrix.net/docs/2.2.0/symbols/mat3.html)
 
+_note_: the returned array is not a copy of the tracked matrix.  Changing it can result in weird issues! Utilize `mat3.clone(ctx.getTransform())` if you need to mutate the result.
+
 # license
 
 MIT (see [LICENSE.txt](LICENSE.txt))
