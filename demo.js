@@ -26,7 +26,7 @@ var ctx = require('fc')(function() {
 
 }, true);
 
-require('./ctx.getTransform')(ctx);
+require('./ctx-get-transform')(ctx);
 console.log(ctx.getTransform)
 document.addEventListener('mousemove', function(e) {
   mouse[0] = e.x;

@@ -4,7 +4,7 @@ One `.getTransform()` of the missing bits of functionality `CanvasRenderingConte
 
 ## install
 
-`npm install ctx.getTransform`
+`npm install ctx-get-transform`
 
 ## use
 

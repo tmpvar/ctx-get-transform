@@ -7,10 +7,10 @@
   "dependencies": {
     "gl-matrix-mat3": "^2.2.1-npm"
   },
-  "name": "ctx.getTransform",
+  "name": "ctx-get-transform",
   "version": "1.0.0",
   "description": "monkey patch CanvasRenderingContext2D to include a getTransform method",
-  "main": "ctx.getTransform.js",
+  "main": "ctx-get-transform.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
