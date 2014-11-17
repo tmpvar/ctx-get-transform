@@ -1,1 +1,10 @@
-{}
+{
+  "devDependencies": {
+    "beefy": "^2.1.1",
+    "fc": "^1.4.0",
+    "gl-matrix-vec2": "^2.2.1-npm"
+  },
+  "dependencies": {
+    "gl-matrix-mat3": "^2.2.1-npm"
+  }
+}
