@@ -16,20 +16,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tmpvar/ctx.getTransform.git"
+    "url": "https://github.com/tmpvar/ctx-get-transform.git"
   },
   "keywords": [
     "2d",
     "canvas",
     "html5",
     "gl-matrix",
+    "getTransform",
     "monkey",
     "patch"
   ],
   "author": "Elijah Insua <tmpvar@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tmpvar/ctx.getTransform/issues"
+    "url": "https://github.com/tmpvar/ctx-get-transform/issues"
   },
-  "homepage": "https://github.com/tmpvar/ctx.getTransform"
+  "homepage": "https://github.com/tmpvar/ctx-get-transform"
 }
