@@ -28,7 +28,7 @@ there is only a single method added to the passed `ctx`, but every method that m
 
 The awesome method (and purpose of this library):
 
-`ctx.getTransform` - return a [gl-matrix style mat3](http://glmatrix.net/docs/2.2.0/symbols/mat3.html) (just a 9 element `Array` or `TypedArray`)
+`ctx.getTransform` - return a [gl-matrix style mat3](http://glmatrix.net/docs/2.2.0/symbols/mat3.html) (just a 9 element `Array`)
 
 _note_: the returned array is not a copy of the tracked matrix.  Changing it can result in weird issues! Utilize `mat3.clone(ctx.getTransform())` if you need a copy.
 

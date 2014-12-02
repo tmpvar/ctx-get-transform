@@ -1,6 +1,6 @@
 var mat3 = require('gl-matrix-mat3');
 var vec2 = require('gl-matrix-vec2');
-
+window.mat3 = mat3;
 var mouse = vec2.create();
 var scale = 1;
 

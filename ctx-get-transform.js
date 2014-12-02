@@ -4,10 +4,10 @@ module.exports = monkeyPatchCtxToAddGetTransform;
 
 function monkeyPatchCtxToAddGetTransform(ctx) {
 
-  var mat = mat3.create();
+  var mat = [1, 0, 0, 0, 1, 0, 0, 0, 1];
   var stack = [];
   var v2scratch = [0, 0, 0];
-  var m3scratch = mat3.create();
+  var m3scratch = [1, 0, 0, 0, 1, 0, 0, 0, 1];
 
   ctx.getTransform = function tGetTransform() {
     return mat;
