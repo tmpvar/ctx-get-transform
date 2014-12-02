@@ -14,7 +14,7 @@ One `.getTransform()` of the missing bits of functionality `CanvasRenderingConte
 var canvas = document.createElement('canvas');
 var ctx = canvas.getContext('2d');
 
-require('ctx.getTransform')(ctx);
+require('ctx-get-transform')(ctx);
 
 console.log(ctx.getTransform) // outputs: function tGetTransform() ...
 
