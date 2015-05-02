@@ -1,18 +1,19 @@
 {
   "devDependencies": {
-    "beefy": "^2.1.1",
     "fc": "^1.4.0",
-    "gl-matrix-vec2": "^2.2.1-npm"
+    "gl-matrix-vec2": "^2.2.1-npm",
+    "gl-vec2": "^1.0.0",
+    "tape": "^4.0.0"
   },
   "dependencies": {
-    "gl-matrix-mat3": "^2.2.1-npm"
+    "gl-mat3": "^1.0.0"
   },
   "name": "ctx-get-transform",
   "version": "1.0.1",
   "description": "monkey patch CanvasRenderingContext2D to include a getTransform method",
   "main": "ctx-get-transform.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",

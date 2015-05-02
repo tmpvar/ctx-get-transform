@@ -1,4 +1,4 @@
-var mat3 = require('gl-matrix-mat3');
+var mat3 = require('gl-mat3');
 
 module.exports = monkeyPatchCtxToAddGetTransform;
 
@@ -38,8 +38,8 @@ function monkeyPatchCtxToAddGetTransform(ctx) {
 
   (function(rotate) {
     ctx.rotate = function tRotate(radians){
-      mat3.rotate(mat, mat, rads);
-      return rotate.call(ctx, rads);
+      mat3.rotate(mat, mat, radians);
+      return rotate.call(ctx, radians);
     };
   })(ctx.rotate);
 
@@ -60,7 +60,7 @@ function monkeyPatchCtxToAddGetTransform(ctx) {
       m3scratch[2] = e;
       m3scratch[3] = b;
       m3scratch[4] = d;
-      m3scratch[4] = f;
+      m3scratch[5] = f;
 
       mat3.multiply(mat, math, m3scratch);
       return transform.call(ctx, a, b, c, d, e, f);
@@ -74,7 +74,7 @@ function monkeyPatchCtxToAddGetTransform(ctx) {
       mat[2] = e;
       mat[3] = b;
       mat[4] = d;
-      mat[4] = f;
+      mat[5] = f;
       return setTransform.call(ctx, a, b, c, d, e, f);
     };
   })(ctx.setTransform);
