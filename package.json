@@ -9,7 +9,7 @@
     "gl-mat3": "^1.0.0"
   },
   "name": "ctx-get-transform",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "monkey patch CanvasRenderingContext2D to include a getTransform method",
   "main": "ctx-get-transform.js",
   "scripts": {
