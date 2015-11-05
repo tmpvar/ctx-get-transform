@@ -62,7 +62,7 @@ function monkeyPatchCtxToAddGetTransform(ctx) {
       m3scratch[4] = d;
       m3scratch[5] = f;
 
-      mat3.multiply(mat, math, m3scratch);
+      mat3.multiply(mat, mat, m3scratch);
       return transform.call(ctx, a, b, c, d, e, f);
     };
   })(ctx.transform);
