@@ -32,6 +32,8 @@ The awesome method (and purpose of this library):
 
 _note_: the returned array is not a copy of the tracked matrix.  Changing it can result in weird issues! Utilize `mat3.clone(ctx.getTransform())` if you need a copy.
 
+`ctx.pointToWorld(out, point)` - project a point (`[0, 0]`) (e.g. mouse position) into world coords.  `out` needs to be a 2 component array and the result of the operation will be applied to it.
+
 # license
 
 MIT (see [LICENSE.txt](LICENSE.txt))
